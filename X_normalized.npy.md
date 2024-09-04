@@ -15,3 +15,6 @@ z = (X - v) / f
 
 #Print the final values after the Normalization solution
 z
+
+#save array Z using the file name X_normalized.npy
+np.save('X_normalized.npy', z)
