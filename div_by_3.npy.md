@@ -20,3 +20,6 @@ print ()
 
 #Printing the variable e which contains all values divisible by 3
 print (e)
+
+#save array using the file name div_by_3.npy
+np.save('div_by_3.npy', e)
