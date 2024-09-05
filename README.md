@@ -22,9 +22,11 @@ z = (X - v) / f
 
 z
 
-#save array Z using the file name X_normalized.npy
+#save array Z using the file name X_normalized.npy and printing that its succesfully saved
 
 np.save('X_normalized.npy', z)
+
+print ("\nThe work has been saved at 'X_normalized.npy' ")
 
 
 # DIVISIBLE BY 3 PROBLEM
@@ -59,8 +61,8 @@ print ()
 
 print (e)
 
-#save array using the file name div_by_3.npy
+#save array using the file name div_by_3.npy and printing that it is saved. 
 
 np.save('div_by_3.npy', e)
 
-
+print ("\nThe work has been saved at 'div_by_3.npy' ")
