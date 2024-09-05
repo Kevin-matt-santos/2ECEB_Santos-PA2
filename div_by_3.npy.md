@@ -1,9 +1,9 @@
 import numpy as np
 
-# Making an Array with the values 1 to 100 inside the variable ndarray
+#Making an Array with the values 1 to 100 inside the variable ndarray
 ndarray = np.arange(1,101,1)
 
-# Organizing the array by 10x10 in ascending order
+#Organizing the array by 10x10 in ascending order
 c = ndarray.reshape(10, 10)
 
 #Squaring all numbers in the array
