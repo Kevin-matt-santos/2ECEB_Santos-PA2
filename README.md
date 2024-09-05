@@ -1,6 +1,7 @@
 # NORMALIZATION PROBLEM
 
 import numpy as np
+
 #Making an 5x5 array with random values inside the variable X
 
 X = np.random.random((5,5))
